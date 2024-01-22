@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text-area {
+    position: relative;
+    top: 50%;
+    transform: translate(0%,-55%);
+    margin-left: 5rem;
+}
+.text-area > h1 {
+    font-size: 50px;
+    color: #1d3a3d;
+}
+.text-area > h1 > span {
+    color: #ffffff;
+    
+}
+.first {
+    margin-top: 1.5rem;
+}
+.bg {
+  height: 100vh;
+  width: 100vw;
+}
+.text-area > p {
+    color: #1d3a3d;
+}
+.time {
+    position: absolute;
+    top: 68%;
+    left: 0%;
+    margin-left: 5rem;
+    display: flex;
+    width: 25rem;
+    justify-content: space-between;
+    color: white;
+}
